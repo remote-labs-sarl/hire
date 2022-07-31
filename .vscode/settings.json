@@ -1,7 +1,10 @@
 {
   "cucumberautocomplete.steps": [
-    "apps/nestjs-e2e/**/*.steps.ts"
+    "apps/front-e2e/**/*.steps.ts"
   ],
-  "cucumberautocomplete.syncfeatures": "apps/nestjs-e2e/**/*.feature",
-  "cucumberautocomplete.strictGherkinCompletion": true
+  "cucumberautocomplete.syncfeatures": "apps/front-e2e/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "conventionalCommits.scopes": [
+    "workspace", "front", "e2e"
+  ]
 }

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'nestjs',
+  displayName: 'front',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/nestjs',
+  coverageDirectory: '../../coverage/apps/front',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

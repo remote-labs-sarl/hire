@@ -4,7 +4,7 @@
   "projects": {
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
-    "nestjs": "apps/nestjs",
-    "nestjs-e2e": "apps/nestjs-e2e"
+    "front": "apps/front",
+    "front-e2e": "apps/front-e2e"
   }
 }

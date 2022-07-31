@@ -30,7 +30,7 @@ Below are our core plugins:
   - `ng add @nrwl/react`
 - Web (no framework frontends)
   - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
+- [Nest](https://front.com)
   - `ng add @nrwl/nest`
 - [Express](https://expressjs.com)
   - `ng add @nrwl/express`

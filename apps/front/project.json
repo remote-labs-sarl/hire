@@ -1,20 +1,20 @@
 {
   "projectType": "application",
-  "sourceRoot": "apps/nestjs/src",
+  "sourceRoot": "apps/front/src",
   "prefix": "rlrecrute",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/nestjs",
-        "index": "apps/nestjs/src/index.html",
-        "main": "apps/nestjs/src/main.ts",
-        "polyfills": "apps/nestjs/src/polyfills.ts",
-        "tsConfig": "apps/nestjs/tsconfig.app.json",
+        "outputPath": "dist/apps/front",
+        "index": "apps/front/src/index.html",
+        "main": "apps/front/src/main.ts",
+        "polyfills": "apps/front/src/polyfills.ts",
+        "tsConfig": "apps/front/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/nestjs/src/favicon.ico", "apps/nestjs/src/assets"],
-        "styles": ["apps/nestjs/src/styles.scss"],
+        "assets": ["apps/front/src/favicon.ico", "apps/front/src/assets"],
+        "styles": ["apps/front/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -33,8 +33,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/nestjs/src/environments/environment.ts",
-              "with": "apps/nestjs/src/environments/environment.prod.ts"
+              "replace": "apps/front/src/environments/environment.ts",
+              "with": "apps/front/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -54,34 +54,34 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "nestjs:build:production"
+          "browserTarget": "front:build:production"
         },
         "development": {
-          "browserTarget": "nestjs:build:development"
+          "browserTarget": "front:build:development"
         }
       },
       "defaultConfiguration": "development",
       "options": {
-        "proxyConfig": "apps/nestjs/proxy.conf.json"
+        "proxyConfig": "apps/front/proxy.conf.json"
       }
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "nestjs:build"
+        "browserTarget": "front:build"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/nestjs/**/*.ts", "apps/nestjs/**/*.html"]
+        "lintFilePatterns": ["apps/front/**/*.ts", "apps/front/**/*.html"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/nestjs"],
+      "outputs": ["coverage/apps/front"],
       "options": {
-        "jestConfig": "apps/nestjs/jest.config.ts",
+        "jestConfig": "apps/front/jest.config.ts",
         "passWithNoTests": true
       }
     }
