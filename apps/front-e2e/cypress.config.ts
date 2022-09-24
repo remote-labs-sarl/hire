@@ -49,7 +49,7 @@ async function setupNodeEvents(
 
 export default defineConfig({
   e2e: {
-    ...nxE2EPreset(__dirname),
+    ...nxE2EPreset(__filename),
     specPattern: "**/*.feature",
     supportFile: false,
     setupNodeEvents
