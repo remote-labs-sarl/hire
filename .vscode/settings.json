@@ -5,6 +5,9 @@
   "cucumberautocomplete.syncfeatures": "apps/front-e2e/**/*.feature",
   "cucumberautocomplete.strictGherkinCompletion": true,
   "conventionalCommits.scopes": [
-    "workspace", "front", "e2e"
+    "workspace",
+    "front",
+    "e2e",
+    "api"
   ]
 }
