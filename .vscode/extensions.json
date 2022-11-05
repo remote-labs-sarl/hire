@@ -5,6 +5,8 @@
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
     "dbaeumer.vscode-eslint",
-    "alexkrechik.cucumberautocomplete"
+    "alexkrechik.cucumberautocomplete",
+    "znck.grammarly",
+    "vivaxy.vscode-conventional-commits"
   ]
 }

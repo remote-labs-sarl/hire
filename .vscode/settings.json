@@ -9,5 +9,6 @@
     "front",
     "e2e",
     "api"
-  ]
+  ],
+  "grammarly.files.include": ["**/README.md", "**/readme.md", "**/*.feature"]
 }
