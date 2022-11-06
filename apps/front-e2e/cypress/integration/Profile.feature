@@ -36,3 +36,126 @@ Feature: Profile
       | CV                  |
       | Certifications      |
       | Endorsements        |
+
+  Scenario: developers profile "attributes section" contains the following elements
+    Given I am on the profile details page
+    Then I should see the "<Section>" section
+
+    Examples:
+      | Section                 |
+      | Java                    |
+      | JavaScript              |
+      | C/C++                   |
+      | C#                      |
+      | .Net                    |
+      | HTML 5                  |
+      | CSS                     |
+      | PHP                     |
+      | Ruby                    |
+      | Ruby on Rails           |
+      | Python                  |
+      | Scala                   |
+      | Go                      |
+      | Kotlin                  |
+      | Swift                   |
+      | R                       |
+      | TypeScript              |
+      | SQL                     |
+      | NoSQL                   |
+      | Objective-C             |
+      | Dart                    |
+      | React                   |
+      | Angular                 |
+      | Node.js                 |
+      | Vue.js                  |
+      | Ember.js                |
+      | Meteor.js               |
+      | Backbone.js             |
+      | Polymer                 |
+      | Next.js                 |
+      | Express.js              |
+      | React Native            |
+      | Flutter                 |
+      | Xamarin                 |
+      | Unity                   |
+      | Rust                    |
+      | Action Script           |
+      | Dart                    |
+      | Testing Automation      |
+      | Manual Testing          |
+      | Selenium                |
+      | Cucumber                |
+      | Gherkin                 |
+      | Cypress                 |
+      | Puppeteer               |
+      | Apache JMeter           |
+      | SoapUI                  |
+      | Scrum                   |
+      | Agile                   |
+      | DevOps                  |
+      | Git                     |
+      | Bitbucker               |
+      | GitLab                  |
+      | Maven                   |
+      | Jenkins                 |
+      | Puppet                  |
+      | Ansible                 |
+      | Docker                  |
+      | Kubernetes              |
+      | AWS                     |
+      | Azure                   |
+      | Splunk                  |
+      | ServiceNow              |
+      | Elasticsearch           |
+      | Kibana                  |
+      | CI/CD                   |
+      | Scripting               |
+      | Terraform               |
+      | Teradata                |
+      | Datastage               |
+      | Informatica Powercenter |
+      | Murex MLC               |
+      | Calypso                 |
+      | Kondor+                 |
+      | Gradle                  |
+      | Admin                   |
+      | UI/UX                   |
+      | Architecture            |
+      | Business Analysis       |
+      | Business Strategy       |
+      | Project Management      |
+      | Account Management      |
+      | Technical Lead          |
+      | Enterprise software     |
+      | Start-ups               |
+
+  Scenario: developers profile "studies section" contains the following elements
+    Given I am on the profile details page
+    Then I should see the "<Section>" section
+
+    Examples:
+      | Section           |
+      | Studies           |
+      | Bachelor's Degree |
+      | Masters Degree    |
+      | MBA               |
+      | PhD               |
+
+  Scenario: developers profile "contact section" contains the following elements
+    Given I am on the profile details page
+    Then I should see the "<Section>" section
+
+    Examples:
+      | Section            |
+      | Ask a question     |
+      | Schedule a meeting |
+      | Make an offer      |
+
+      
+
+
+
+
+
+
+

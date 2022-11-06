@@ -14,6 +14,6 @@ Feature: Filtering profiles
 
   Scenario: filtering page should show a list of developers' profiles on "Show Results"
     Given I am on the filtering page
-    When I Select filters
+    When I select filters
     And I click on Show Results
     Then I am shown a list of profiles

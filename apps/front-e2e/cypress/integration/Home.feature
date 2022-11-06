@@ -1,4 +1,5 @@
 Feature: Home page
+
   Scenario: visiting the home page
     When I visit the home page
     Then I should see a message "Welcome to the front!"
