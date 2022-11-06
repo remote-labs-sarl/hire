@@ -1,5 +1,6 @@
 Feature: Profile
 
+  @todo
   Scenario: details of a profile link inside the profile list
     Given I am on profile list page
     Then I should see the "<Section>" section
@@ -14,11 +15,13 @@ Feature: Profile
       | Top skills       |
       | Good fit         |
 
+  @todo
   Scenario: developers profile list's link should open the profile's details
     Given I am on the profile list page
     When clicking on the profile link
     Then I am shown the profile details
 
+  @todo
   Scenario: developers profile "main section" contains the following elements
     Given I am on the profile details page
     Then I should see the "<Section>" section
@@ -37,6 +40,7 @@ Feature: Profile
       | Certifications      |
       | Endorsements        |
 
+  @todo
   Scenario: developers profile "attributes section" contains the following elements
     Given I am on the profile details page
     Then I should see the "<Section>" section
@@ -129,6 +133,7 @@ Feature: Profile
       | Enterprise software     |
       | Start-ups               |
 
+  @todo
   Scenario: developers profile "studies section" contains the following elements
     Given I am on the profile details page
     Then I should see the "<Section>" section
@@ -141,6 +146,7 @@ Feature: Profile
       | MBA               |
       | PhD               |
 
+  @todo
   Scenario: developers profile "contact section" contains the following elements
     Given I am on the profile details page
     Then I should see the "<Section>" section
@@ -151,7 +157,7 @@ Feature: Profile
       | Schedule a meeting |
       | Make an offer      |
 
-      
+
 
 
 

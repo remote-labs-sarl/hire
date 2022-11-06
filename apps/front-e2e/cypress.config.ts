@@ -52,6 +52,9 @@ export default defineConfig({
     ...nxE2EPreset(__filename),
     specPattern: "**/*.feature",
     supportFile: false,
+    env: {
+      TAGS: "not @todo"
+    },
     setupNodeEvents
   },
 });

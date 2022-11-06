@@ -1,5 +1,6 @@
 Feature: Filtering profiles
 
+  @todo
   Scenario: filtering page should contain filters
     Given I am on the filtering page
     Then I should see the "<Section>" section
@@ -12,6 +13,7 @@ Feature: Filtering profiles
       | Experience        |
       | Additional Skills |
 
+  @todo
   Scenario: filtering page should show a list of developers' profiles on "Show Results"
     Given I am on the filtering page
     When I select filters
