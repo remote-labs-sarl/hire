@@ -6,7 +6,7 @@ Feature: Home page
 
   @todo
   Scenario: home page should contain categories for programming languages and frameworks.
-    Given I am on home page
+    Given I am on the home page
     Then I should see a list of "languages"
 
   @todo
