@@ -2,7 +2,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 import { Message } from '@rlrecrute/api-interfaces';
 import { CandidateService } from './candidate.service';
 
-@Controller('candidate')
+@Controller('candidates')
 export class CandidateController {
   constructor(private candidateService: CandidateService) {}
 

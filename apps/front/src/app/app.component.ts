@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Message } from '@rlrecrute/api-interfaces';
 
 @Component({
   selector: 'rlrecrute-root',

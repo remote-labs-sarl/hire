@@ -1,6 +1,6 @@
 Feature: Home page
 
-  Scenario: visiting the home page
+  Scenario: visiting the home page.
     Given I visit the home page
     Then I should see a message "Welcome to the front!"
 
@@ -8,8 +8,7 @@ Feature: Home page
     Given I visit the home page
     Then I should see a list of "Languages"
 
-  @todo
   Scenario: home page category link should redirect to the filtering page.
     Given I visit the home page
     When I click on the first language category
-    Then I am shown the filtering page
+    Then I am shown the filtering page "/filters"

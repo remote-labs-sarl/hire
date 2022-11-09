@@ -1,0 +1,8 @@
+<button type="button" (click)="createOne()">createOne</button>
+
+<mat-list role="list">
+  <mat-list-item role="listitem" *ngFor="let candidate of candidates$ | async">
+    <a matLine [routerLink]="'./' + candidate.id">{{
+      candidate.firstName + ' ' + candidate.lastName + ' ' + candidate.createdAt }}</a>
+  </mat-list-item>
+</mat-list>

@@ -7,6 +7,8 @@
     "candidate": "libs/candidate",
     "front": "apps/front",
     "front-e2e": "apps/front-e2e",
+    "pages-candidate": "libs/pages/candidate",
+    "pages-filters": "libs/pages/filters",
     "pages-home": "libs/pages/home"
   }
 }
