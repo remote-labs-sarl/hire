@@ -6,6 +6,7 @@
     "api-interfaces": "libs/api-interfaces",
     "candidate": "libs/candidate",
     "front": "apps/front",
-    "front-e2e": "apps/front-e2e"
+    "front-e2e": "apps/front-e2e",
+    "pages-home": "libs/pages/home"
   }
 }

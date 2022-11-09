@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@rlrecrute/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@rlrecrute/candidate": ["libs/candidate/src/index.ts"]
+      "@rlrecrute/candidate": ["libs/candidate/src/index.ts"],
+      "@rlrecrute/pages/home": ["libs/pages/home/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

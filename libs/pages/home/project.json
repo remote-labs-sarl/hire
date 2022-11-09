@@ -1,0 +1,19 @@
+{
+  "name": "pages-home",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/pages/home/src",
+  "prefix": "rlrecrute",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/pages/home/**/*.ts",
+          "libs/pages/home/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

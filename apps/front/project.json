@@ -1,4 +1,5 @@
 {
+  "name": "front",
   "projectType": "application",
   "sourceRoot": "apps/front/src",
   "prefix": "rlrecrute",
