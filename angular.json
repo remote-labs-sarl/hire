@@ -9,6 +9,7 @@
     "front-e2e": "apps/front-e2e",
     "pages-candidate": "libs/pages/candidate",
     "pages-filters": "libs/pages/filters",
-    "pages-home": "libs/pages/home"
+    "pages-home": "libs/pages/home",
+    "pages-profiles": "libs/pages/profiles"
   }
 }

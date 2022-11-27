@@ -19,7 +19,8 @@
       "@rlrecrute/candidate": ["libs/candidate/src/index.ts"],
       "@rlrecrute/pages/candidate": ["libs/pages/candidate/src/index.ts"],
       "@rlrecrute/pages/filters": ["libs/pages/filters/src/index.ts"],
-      "@rlrecrute/pages/home": ["libs/pages/home/src/index.ts"]
+      "@rlrecrute/pages/home": ["libs/pages/home/src/index.ts"],
+      "@rlrecrute/pages/profiles": ["libs/pages/profiles/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
